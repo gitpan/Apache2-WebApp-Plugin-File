@@ -55,8 +55,7 @@ OBJECT METHODS
       $c->plugin('File')->download( \%controller, '/path/to/file' );
 
 SEE ALSO
-    Apache2::WebApp, Apache2::WebApp::Plugin, Apache2::Request, MIME::Types,
-    Params::Validate
+    Apache2::WebApp, Apache2::WebApp::Plugin, Apache2::Request, MIME::Types
 
 AUTHOR
     Marc S. Brooks, <mbrooks@cpan.org> - <http://mbrooks.info>

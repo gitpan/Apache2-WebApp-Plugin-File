@@ -21,7 +21,7 @@ use base 'Apache2::WebApp::Plugin';
 use MIME::Types;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -167,8 +167,7 @@ Force the file as a web browser download.
 
 =head1 SEE ALSO
 
-L<Apache2::WebApp>, L<Apache2::WebApp::Plugin>, L<Apache2::Request>, L<MIME::Types>, 
-L<Params::Validate>
+L<Apache2::WebApp>, L<Apache2::WebApp::Plugin>, L<Apache2::Request>, L<MIME::Types>
 
 =head1 AUTHOR
 

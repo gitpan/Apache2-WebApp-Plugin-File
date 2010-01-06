@@ -21,7 +21,7 @@ use base 'Apache2::WebApp::Plugin';
 use MIME::Types;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
